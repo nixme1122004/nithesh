@@ -1,0 +1,24 @@
+body {
+    background-image: url('sun.png');
+    background-size: cover;  /* Ensures the image covers the whole screen */
+    background-position: center;
+    background-attachment: fixed; /* Keeps background stationary when scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    width: 600px; /* Set width */
+    height:max-content; /* Maintain aspect ratio */
+    transition: transform 0.2s; /* Animation effect */
+    align-items: normal;
+}
+
+img:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+}

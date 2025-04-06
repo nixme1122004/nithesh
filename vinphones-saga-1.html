@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>VinPhones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+        <style>
+            body {
+                background-image: url('sun.png');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .phone-button {
+                border:none;
+                outline: none;
+                box-shadow: none;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .phone-button img {
+                height: auto;
+                width: 700px; /* Adjust the size as needed */
+                cursor: pointer; /* Makes it clear it's clickable */
+                transition: transform 0.3s ease-in-out;
+                }
+
+            .phone-button img:hover {
+                transform: scale(1.2);
+                filter: drop-shadow(0 0 10px #fffdef);
+            }
+            h1{
+                color: #fffdef;
+                font-size: 50px;
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Press Start 2P',cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>VinPhones</h1>
+        </div>
+        <div class="phone-button">
+            <a href="phones.html"><img src="moto.png" alt="Phone Icon"></a>
+
+        </div>
+    </body>
+</html>
